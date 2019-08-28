@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<title>Domo’s Trivia Game!</title>
+<link href ="style.css" rel ="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+<script src = "main.js"></script>
+
+</head>
+
+
+<body>
+<h1>Step in the ring!</h1>
+
+
+<form id = "quiz" name = "quiz">
+
+
+<!-- TRIVIA QUESTIONS BELOW -->
+<p class = "questions">What weight class did I fight in?</p>
+<input id = "textbox" type = "text" name = "question1">
+
+<p class = "questions">After beating Conor McGreggor, what is Floyd Mayweather's current record?</p>
+<input type = "radio" id = "mc" name = "question2" value = "30-0"> 30-0<br>
+<input type = "radio" id = "mc" name = "question2" value = "52-0"> 52-0<br>
+<input type = "radio" id = "mc" name = "question2" value = "50-0"> 50-0<br>
+<input type = "radio" id = "mc" name = "question2" value = "41-0"> 41-0<br>
+
+
+<p class = "questions">Not including "Creed", How many Rocky movies are there?</p>
+<input type = "radio" id = "mc" name = "question3" value = "5"> 5<br>
+<input type = "radio" id = "mc" name = "question3" value = "6"> 6<br>
+<input type = "radio" id = "mc" name = "question3" value = "7"> 7<br>
+<input type = "radio" id = "mc" name = "question3" value = "9"> 9<br>
+
+<p class = "questions">What 2 time heavyweight champion makes more money from selling kitchen appliances than he did in his entire boxing career?</p>
+<input type = "radio" id = "mc" name = "question4" value = "Mike Tyson"> Mike Tyson<br>
+<input type = "radio" id = "mc" name = "question4" value = "Evander Holyfield"> Evander Holyfield<br>
+<input type = "radio" id = "mc" name = "question4" value = "George Foreman"> George Foreman<br>
+<input type = "radio" id = "mc" name = "question4" value = "Joe Frazier"> Joe Frazier<br>
+
+<p class = "questions">How many weight classes are there in boxing?</p>
+<input type = "radio" id = "mc" name = "question5" value = "8"> 8<br>
+<input type = "radio" id = "mc" name = "question5" value = "11"> 11<br>
+<input type = "radio" id = "mc" name = "question5" value = "17"> 17<br>
+<input type = "radio" id = "mc" name = "question5" value = "22"> 22<br>
+
+<p class = "questions">Not including "Creed", How many Rocky movies are there?</p>
+<input type = "radio" id = "mc" name = "question6" value = "5"> 5<br>
+<input type = "radio" id = "mc" name = "question6" value = "6"> 6<br>
+<input type = "radio" id = "mc" name = "question6" value = "7"> 7<br>
+<input type = "radio" id = "mc" name = "question6" value = "9"> 9<br>
+
+<p class = "questions">Not including "Creed", How many Rocky movies are there?</p>
+<input type = "radio" id = "mc" name = "question7" value = "5"> 5<br>
+<input type = "radio" id = "mc" name = "question7" value = "6"> 6<br>
+<input type = "radio" id = "mc" name = "question7" value = "7"> 7<br>
+<input type = "radio" id = "mc" name = "question7" value = "9"> 9<br>
+
+<p class = "questions">Not including "Creed", How many Rocky movies are there?</p>
+<input type = "radio" id = "mc" name = "question8" value = "5"> 5<br>
+<input type = "radio" id = "mc" name = "question8" value = "6"> 6<br>
+<input type = "radio" id = "mc" name = "question8" value = "7"> 7<br>
+<input type = "radio" id = "mc" name = "question8" value = "9"> 9<br>
+
+<p class = "questions">Not including "Creed", How many Rocky movies are there?</p>
+<input type = "radio" id = "mc" name = "question9" value = "5"> 5<br>
+<input type = "radio" id = "mc" name = "question9" value = "6"> 6<br>
+<input type = "radio" id = "mc" name = "question9" value = "7"> 7<br>
+<input type = "radio" id = "mc" name = "question9" value = "9"> 9<br>
+
+<p class = "questions">Not including "Creed", How many Rocky movies are there?</p>
+<input type = "radio" id = "mc" name = "question10" value = "5"> 5<br>
+<input type = "radio" id = "mc" name = "question10" value = "6"> 6<br>
+<input type = "radio" id = "mc" name = "question10" value = "7"> 7<br>
+<input type = "radio" id = "mc" name = "question10" value = "9"> 9<br>
+
+
+
+
+
+
+<!-- SUBMIT BUTTON BELOW -->
+<input id = "button" type = "button" value = "Take a jab!" onclick = "check();">
+
+</form>
+
+<div id = "after_submit">
+<p id = "number_correct"></p>
+<p id = "message"></p>
+<img id = "picture">
+</div>
+</html>
+
+</body>
+
+
