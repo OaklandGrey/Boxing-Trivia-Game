@@ -5,14 +5,17 @@
 <title>Domo’s Trivia Game!</title>
 <link href ="style.css" rel ="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
-<script src = "main.js"></script>
-
 </head>
 
 
 <body>
-<h1>Step in the ring!</h1>
+        <audio controls autoplay>
+                <source src="Iwillnotbow.mp3" type="audio/ogg">
+                <source src="Iwillnotbow.mp3" type="audio/mp3">
+              </audio>
 
+<h1>Step in the ring!</h1>
+<h2>Let's see what you've got</h2>
 
 <form id = "quiz" name = "quiz">
 
@@ -20,7 +23,7 @@
 <!-- TRIVIA QUESTIONS BELOW -->
 <p class = "questions">What weight class did I fight in?</p>
 <input id = "textbox" type = "text" name = "question1">
-
+<div id="content">
 <p class = "questions">After beating Conor McGreggor, what is Floyd Mayweather's current record?</p>
 <input type = "radio" id = "mc" name = "question2" value = "30-0"> 30-0<br>
 <input type = "radio" id = "mc" name = "question2" value = "52-0"> 52-0<br>
@@ -70,14 +73,13 @@
 <input type = "radio" id = "mc" name = "question9" value = "1999"> 1999<br>
 <input type = "radio" id = "mc" name = "question9" value = "1995"> 1995<br>
 
-<p class = "questions">Where was Muhammed Ali born?</p>
+<p class = "questions">Where was Muhammad Ali born?</p>
 <input type = "radio" id = "mc" name = "question10" value = "Nashville, TN"> Nashville, TN<br>
 <input type = "radio" id = "mc" name = "question10" value = "Chicago, IL"> Chicago, IL<br>
 <input type = "radio" id = "mc" name = "question10" value = "Louisville, KY"> Louisville, KY<br>
 <input type = "radio" id = "mc" name = "question10" value = "Birmingham, AL"> Birmingham, AL<br>
 
-
-
+</div>
 
 
 
@@ -92,7 +94,7 @@
 <img id = "picture">
 </div>
 </html>
-
+<script src = "main.js"></script>
 </body>
 
 

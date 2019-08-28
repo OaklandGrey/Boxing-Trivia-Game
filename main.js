@@ -14,52 +14,52 @@ function check(){
 
 
 	if (question1 == "Welterweight") {
-		correct++;
-}
+		correct++; }
+
 	if (question2 == "50-0") {
-		correct++;
-}	
+		correct++; }
+	
 	if (question3 == "6") {
-        correct++;
+        correct++; }
         
     if (question4 == "George Foreman") {
-        correct++;
+        correct++; }
 
     if (question5 == "17") {
-        correct++;
+        correct++; }
 
     if (question6 == "southpaw") {
-        correct++;
+        correct++; }
 
     if (question7 == "3 minutes") {
-        correct++;
+        correct++; }
 
     if (question8 == "60 seconds") {
-        correct++;
+        correct++; }
 
     if (question9 == "1997") {
-        correct++;
+        correct++; }
                                 
     if (question10 == "Louisville, KY") {
-        correct++;
+        correct++; }
 	}
 	
-	var pictures = ["img/win.gif", "img/meh.jpeg", "img/lose.gif"];
-	var messages = ["Knockout!", "Ehh, not great not bad", "Stick to your day job.."];
-    var score;
+	var pictures = ["img/carlton.gif", "img/thumbsdown.jpeg", "img/cryingjordan.gif"];
+	var messages = ["Knockout!", "Ehh", "Stick to your day job.."];
     var range;
+    // var range;
 
 
     if (correct == 0) {
-		score = 2;
+		range = 2;
 	}
 
-	if (correct > 0 && correct < 3) {
-		score = 1;
+	if (correct > 0 && correct < 9) {
+		range = 1;
 	}
 
-	if (correct == 3) {
-		score = 0;
+	if (correct == 9) {
+		range = 0;
 	}
 
 	// if (correct < 2) {
@@ -76,7 +76,8 @@ function check(){
 
 	document.getElementById("after_submit").style.visibility = "visible";
 //     simplify this 
-	document.getElementById("message").innerHTML = messages[range];
+	document.getElementById("message").innerHTML = messages[score];
 	document.getElementById("number_correct").innerHTML = "You got " + correct + " correct.";
-	document.getElementById("picture").src = pictures[score];
-    }
+	document.getElementById("picture").src = pictures[range];
+
+

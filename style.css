@@ -1,0 +1,86 @@
+body {
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+    background-image: url('https://media.giphy.com/media/xT9Igf2wBfQ8ClCDNC/giphy.gif');
+    background-size: grid;
+    height: 10vh;
+    padding: 25px 500px 75px;
+    margin:0;
+}
+
+#quiz {
+	margin-left: none;
+	background: #1abd30;
+	padding: 10px 20px 10px 20px;
+	width: 300px;
+	border-radius: 20px;
+    float: center;
+    
+}
+
+input {
+	margin-bottom: 20px;
+	display: block;
+}
+
+#textbox {
+	height: 25px;
+	font-size: 16px;
+	border-radius: 5px;
+	border: none;
+    padding-left: 5px;
+    position: inherit;
+}
+
+
+#button {
+	background: black;
+	border: none;
+	border-radius: 5px;
+	padding: 10px;
+	color: white;
+	font-size: 16px;
+	margin-top: 15px;
+}
+
+
+#button:hover {
+	background: red;
+	border: 1px solid black;
+	color: black;
+	cursor: grab;
+
+}
+
+#after_submit {
+	visibility: hidden;
+	background: #ff5459;
+	padding: 10px 20px 10px 20px;
+	width: 400px;
+	border-radius: 20px;
+	float: left;
+	margin-left: 20px;
+	font-size: 30px;
+}
+
+#picture {
+	width: 375px;
+	height: 245px;
+}
+
+
+#mc {
+	display: inline;
+} 
+
+p {
+    text-align: center;
+
+}
+
+h1 {
+    color: red;
+}
+h2 {
+    color: red;
+}
