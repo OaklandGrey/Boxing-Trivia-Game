@@ -1,4 +1,4 @@
-body {
+/* body {
     font-family: 'Lato', sans-serif;
     text-align: center;
     background-image: url('https://media.giphy.com/media/xT9Igf2wBfQ8ClCDNC/giphy.gif');
@@ -83,4 +83,28 @@ h1 {
 }
 h2 {
     color: red;
+} */
+
+
+
+
+
+body {
+	font-size: 23px;
+	/* font-family: 'Ultra', serif; */
+/*  font-family: 'Sigmar One' serif; */
+    text-align: center;
+    background-image: url('https://media.giphy.com/media/xT9Igf2wBfQ8ClCDNC/giphy.gif');
+	/* background-size: auto; */
+	background-position: 50% 50%;
+    background-repeat: repeat;
+    height: 10vh;
+    padding: 25px 500px 75px;
+	margin:0;
+	
 }
+
+#content {
+	background-color: black;
+}
+

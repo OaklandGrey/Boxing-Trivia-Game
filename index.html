@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html>
 <head>
 
@@ -18,12 +18,12 @@
 <h2>Let's see what you've got</h2>
 
 <form id = "quiz" name = "quiz">
-
+ -->
 
 <!-- TRIVIA QUESTIONS BELOW -->
-<p class = "questions">What weight class did I fight in?</p>
-<input id = "textbox" type = "text" name = "question1">
-<div id="content">
+<!-- <p class = "questions">What weight class did I fight in?</p>
+<input id = "textbox" type = "text" name = "question1"> -->
+<!-- <div id="content">
 <p class = "questions">After beating Conor McGreggor, what is Floyd Mayweather's current record?</p>
 <input type = "radio" id = "mc" name = "question2" value = "30-0"> 30-0<br>
 <input type = "radio" id = "mc" name = "question2" value = "52-0"> 52-0<br>
@@ -80,11 +80,11 @@
 <input type = "radio" id = "mc" name = "question10" value = "Birmingham, AL"> Birmingham, AL<br>
 
 </div>
-
+ -->
 
 
 <!-- SUBMIT BUTTON BELOW -->
-<input id = "button" type = "button" value = "Take a jab!" onclick = "check();">
+<!-- <input id = "button" type = "button" value = "Take a jab!" onclick = "check();">
 
 </form>
 
@@ -96,5 +96,52 @@
 </html>
 <script src = "main.js"></script>
 </body>
+ -->
 
 
+
+
+
+<!DOCTYPE html>
+
+<body>
+    <title>Domo's Trivia Game</title>
+    <head>
+
+        <!-- <head>
+                <script>
+                window.onload = function() {
+                  var context = new AudioContext();
+                }
+                </script>
+                </head>
+                <audio autoplay>
+                        <source src="Iwillnotbow.mp3">
+                  </audio> -->
+
+
+        <audio controls autoplay>
+                <source src="Iwillnotbow.mp3" type="audio/ogg">
+                <source src="Iwillnotbow.mp3" type="audio/mp3">
+              </audio>
+    <div id="content">
+            <link href ="style.css" rel ="stylesheet">
+
+    <h3 id="question" style="color: rgb(111, 0, 255);">
+  
+    </h3>
+    <div id="choices" style="color: rgb(229, 255, 0);"></div> 
+  
+    </div>
+    <br>
+    <p><button id="submit" class="btn btn-warning"></button>
+    </p>
+  
+
+    <p id="score">
+            
+    </p>
+  </div>
+  <script src = "main.js"></script>
+</head>
+  </body>
