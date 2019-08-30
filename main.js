@@ -160,12 +160,18 @@
           questionHolder.textContent = "Question: " + (questionTracker + 1) + ". " + questions[questionTracker].question;
           /* ANSWERS */
           choicesHolder.innerHTML = tempChoices;
-        
+
+          
           /* SETUP, FIRST ITERATION */
           if(questionTracker == 0)
           {
             scoreHolder.textContent = "Score: 0 out of " + questions.length + " total questions.";
             submitButton.textContent = "Take a jab!";
+            submitButton.style.fontSize = "110%";
+            submitButton.style.color = "red";
+            submitButton.onmouseover = function(){myScript};
+            
+
           }
         }
         
@@ -242,7 +248,7 @@
           location.reload();
         }
         
-        
+
         window.addEventListener("load", askQ, false);
         submitButton.addEventListener("click", validateAnswer, false);
     
