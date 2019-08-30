@@ -242,6 +242,7 @@
           location.reload();
         }
         
+        
         window.addEventListener("load", askQ, false);
         submitButton.addEventListener("click", validateAnswer, false);
     
